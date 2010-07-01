@@ -1,0 +1,22 @@
+# This file is being maintained by Puppet.
+# DO NOT EDIT
+
+#
+# Global params
+
+ddns-update-style interim;
+
+# 4 hours
+max-lease-time 14400;
+
+# 1 hour
+default-lease-time 3600;
+
+log-facility daemon;
+allow booting;
+allow bootp;
+ignore client-updates;
+set vendorclass = option vendor-class-identifier;
+
+include "<%= dhcp::includes %>/includes.conf";
+

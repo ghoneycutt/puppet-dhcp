@@ -1,0 +1,8 @@
+subnet <%= ipaddress_eth1.match(/\d+\.\d+\.\d+/) %>.0 netmask 255.255.255.0 {
+        option domain-name          "<%= domain %>";
+        option domain-name-servers  <%= nameservers.join(", ") %>;
+        option subnet-mask          255.255.255.0;
+        option routers              <%= ipaddress_eth1.match(/\d+\.\d+\.\d+/) %>.1;
+        filename                    "/pxelinux.0";
+        next-server                 <%= ipaddress_eth1 %>;
+}
