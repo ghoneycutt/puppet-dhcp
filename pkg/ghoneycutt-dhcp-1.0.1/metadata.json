@@ -1,0 +1,23 @@
+{
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "templates/multiplenets_snippet.erb": "3d3fdbfd2dc48bcb8a88ea10bb04cf68",
+    "CHANGELOG": "c1c926302b2ab4ee2933505c0a190cc0",
+    "README": "6f0d3f9866e64721e8b7065e654f7aa5",
+    "tests/init.pp": "37867c861c59975dac6d8b066d436b96",
+    "templates/dhcpd.conf.erb": "86d2dda6534e11cd44a5371b305c610e",
+    "templates/default_snippet.erb": "3783ff8680a3619895e9154c4b8e4018",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "Modulefile": "c60e54f26432ebb4a1716d3d6d8424bc",
+    "manifests/init.pp": "1059e9993d2d80ebf0e1326905461644"
+  },
+  "version": "1.0.1",
+  "dependencies": [
+
+  ],
+  "name": "ghoneycutt-dhcp",
+  "types": [
+
+  ]
+}
