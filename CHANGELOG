@@ -1,2 +1,10 @@
-1.0.0 - initial release
-1.0.1 - added documentation
+1.0.0 - 20100701
+  * initial release
+
+1.0.1 - 20100811
+  * added documentation
+
+1.0.2 - 20110125
+  * added LICENSE
+  * hard coded path for includes directory is now a variable
+  * separated defines and classes into their own files
