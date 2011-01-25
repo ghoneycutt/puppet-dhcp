@@ -1,7 +1,5 @@
 dhcp
 
-Released 20100701
-
 For dhcp::cobbler, please see puppet-cobbler at http://github.com/ghoneycutt/puppet-cobbler
 
 templates/multiplenets_snippet.erb has been included, though it is not currently referenced.

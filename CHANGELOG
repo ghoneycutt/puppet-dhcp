@@ -8,3 +8,6 @@
   * added LICENSE
   * hard coded path for includes directory is now a variable
   * separated defines and classes into their own files
+
+1.0.3 - 20110125
+  * README update
