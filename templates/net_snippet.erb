@@ -1,0 +1,8 @@
+subnet <%= name %> netmask <%= dhcpnetmask %> {
+        option domain-name          "<%= domain %>";
+        option domain-name-servers  <%= nameservers.join(", ") %>;
+        option subnet-mask          <%= dhcpnetmask %>;
+        option routers              <%= name.match(/\d+\.\d+\.\d+/) %>.1;
+        filename                    "<%= filename %>";
+        next-server                 <%= ipaddress_eth1 %>;
+}
