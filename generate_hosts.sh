@@ -8,6 +8,7 @@ do
 
 cat << HOSTENTRY
 host $hostname {
+  option host-name $hostname;
   hardware ethernet $mac;
   fixed-address $ip;
 }
