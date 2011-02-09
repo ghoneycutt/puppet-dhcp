@@ -3,8 +3,8 @@
 while read line
 do
   hostname=$(echo $line | awk '{print $1}')
-  mac=$(echo $line | awk '{print $2}')
-  ip=$(echo $line | awk '{print $3}')
+  mac=$(echo $line | awk '{print $3}')
+  ip=$(echo $line | awk '{print $4}')
 
 cat << HOSTENTRY
 host $hostname {
